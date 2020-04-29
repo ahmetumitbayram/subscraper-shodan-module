@@ -2,7 +2,7 @@ import requests, json
 
 class ShodanIO():
     def __init__(self, args, target, handler):
-        self.description = "Example module"
+        self.description = "ShodanIO Module"
         self.author = '@ahmetumitbayram'
         self.method = ['scrape']
 
